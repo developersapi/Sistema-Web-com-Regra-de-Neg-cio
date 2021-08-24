@@ -23,9 +23,8 @@
 
  
  ## Nomes Completos: 
- 
- 
-Anna Carolina de Oliveira Vale Mendes - Scrum Master 
-Rafael dos Santos Pereira - P.O 
-Pedro Reginaldo Tomé Silva - Dev
-Lucas Vinícius Corrêa da Silva - Dev ( Turma A)
+
+<p>-Anna Carolina de Oliveira Vale Mendes - Scrum Master</p> 
+<p>-Rafael dos Santos Pereira - P.O </p> 
+<p>-Pedro Reginaldo Tomé Silva - Dev </p> 
+<p>-Lucas Vinícius Corrêa da Silva - Dev ( Turma A) </p>
