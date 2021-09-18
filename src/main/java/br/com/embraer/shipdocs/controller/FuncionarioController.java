@@ -11,7 +11,8 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 
 @Controller
-@RequestMapping(value = "/funcionario", produces = "application/json;charset=UTF-8", consumes = "application/json;charset=UTF-8")
+@RequestMapping(value = "/funcionario")
+@RestController
 public class FuncionarioController {
 
     @Autowired
@@ -33,7 +34,7 @@ public class FuncionarioController {
     @GetMapping(value = "/buscar/{funcionarioId}")
     public Funcionario buscarPorId(@PathVariable Long funcionarioId) {
         return funcionarioRepository
-                .findById(funcionarioId.toString())
+                .findById(funcionarioId)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Funcionário não encontrado"));
     }
 }

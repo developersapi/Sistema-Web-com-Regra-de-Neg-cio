@@ -11,7 +11,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 
 @Controller
-@RequestMapping("/administrador")
+@RequestMapping(value = "/administrador")
 @RestController
 public class AdministradorController {
 
@@ -34,7 +34,7 @@ public class AdministradorController {
     @GetMapping(value = "/buscar/{administradorId}")
     public Administrador buscarPorId(@PathVariable Long administradorId) {
         return administradorRepository
-                .findById(administradorId.toString())
+                .findById(administradorId)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Administrador não encontrado"));
     }
 }

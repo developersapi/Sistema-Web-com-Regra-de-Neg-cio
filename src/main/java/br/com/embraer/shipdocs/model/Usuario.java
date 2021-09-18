@@ -2,8 +2,8 @@ package br.com.embraer.shipdocs.model;
 
 import javax.persistence.*;
 
-@Entity(name = "Usuario")
 @Inheritance(strategy = InheritanceType.JOINED)
+@MappedSuperclass
 public class Usuario {
 
     @Id
@@ -24,6 +24,9 @@ public class Usuario {
         this.nome = nome;
         this.email = email;
         this.senha = senha;
+    }
+
+    public Usuario() {
     }
 
     public Long getId() {
