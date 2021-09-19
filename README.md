@@ -66,13 +66,13 @@ Relatório Estatístico.</p>
                      </tr>
                      <tr>
                             <td>Segunda Entrega</td>
-                            <td>Tela de usuário,  </td>
+                            <td>  </td>
                             <td>20/09 à 10/10</td>
                             <td><a href="">Sprint 2</td>
                      </tr>
                      <tr>
                             <td>Terceira Entrega</td>
-                            <td>.</td>
+                            <td></td>
                             <td>18/09 à 07/11</td>
                             <td><a href="">Sprint 3</a></td>
                      </tr>
@@ -106,8 +106,8 @@ O mesmo já possuí o banco de dados, o que permite que possamos incluir e/ou ex
 
 
 <h4>Primeira entrega 📇</h4>
- ## <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1.PNG) </h1>
-## <h2 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.PNG) </h2>
+## <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1.PNG)</h1>
+## <h2 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.PNG)</h2>
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -119,6 +119,6 @@ O mesmo já possuí o banco de dados, o que permite que possamos incluir e/ou ex
 
 --------------------------------------------------------------------------------------------------------------------
 
-<h3 align="center">Nosso sistema em funcionamento!</p></h3> 
+##<h3 align="center">Nosso sistema em funcionamento!</p></h3> 
 
 ## Na data de 28/11/2021, teremos essa seção completa e disponível. 
