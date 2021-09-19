@@ -106,8 +106,8 @@ O mesmo já possuí o banco de dados, o que permite que possamos incluir e/ou ex
 
 
 <h4>Primeira entrega 📇</h4>
-## <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1.png)</h1>
-## <h2 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.png)</h2>
+< h1 align ="center> <img src ="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1.png">
+< h1 align ="center> <img src = "https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.png"
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -119,6 +119,6 @@ O mesmo já possuí o banco de dados, o que permite que possamos incluir e/ou ex
 
 --------------------------------------------------------------------------------------------------------------------
 
-##<h3 align="center">Nosso sistema em funcionamento!</p></h3> 
+<h3 align="center">Nosso sistema em funcionamento!</p></h3> 
 
 ## Na data de 28/11/2021, teremos essa seção completa e disponível. 
