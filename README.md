@@ -106,8 +106,8 @@ O mesmo já possuí o banco de dados, o que permite que possamos incluir e/ou ex
 
 
 <h4>Primeira entrega 📇</h4>
-< h1 align ="center> <img src ="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1.png">
-< h1 align ="center> <img src = "https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.png"
+< h1 align ="center"> <img src ="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1.PNG">
+< h1 align ="center"> <img src = "https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.PNG">
 
 --------------------------------------------------------------------------------------------------------------------
 
