@@ -22,7 +22,7 @@ Relatório Estatístico.</p>
 
 --------------------------------------------------------------------------------------------------------------------
 ## O que entregamos ✅
-<p align="justify"> Primeira entrega, incluí os Wireframes do produto, página inicial do site, login de cadastro e incio da criação com planejamento de documentações que devem ser inclusas na plataforma ShipsDocument.</p>
+<p align="justify"> Primeira entrega, incluí os Wireframes do produto, página inicial do site, login de cadastro e início da criação com planejamento de documentações que devem ser inclusas na plataforma ShipsDocument.</p>
 
 ## Por que fizemos essa escolha? ❔
 <p align="justify">De maneira geral, preferimos entregar algo visual, onde o cliente pudesse verificar o andamento do trabalho.</p>
