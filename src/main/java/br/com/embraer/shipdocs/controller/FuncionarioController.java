@@ -1,6 +1,6 @@
 package br.com.embraer.shipdocs.controller;
 
-import br.com.embraer.shipdocs.model.Funcionario;
+import br.com.embraer.shipdocs.model.usuario.Funcionario;
 import br.com.embraer.shipdocs.repository.FuncionarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -10,9 +10,8 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
-@Controller
-@RequestMapping(value = "/funcionario")
 @RestController
+@RequestMapping(value = "/funcionario")
 public class FuncionarioController {
 
     @Autowired

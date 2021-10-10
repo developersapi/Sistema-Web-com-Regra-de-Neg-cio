@@ -1,7 +1,7 @@
 package br.com.embraer.shipdocs.controller;
 
-import br.com.embraer.shipdocs.model.Arquivo;
-import br.com.embraer.shipdocs.model.TipoArquivo;
+import br.com.embraer.shipdocs.model.manual.Arquivo;
+import br.com.embraer.shipdocs.model.manual.TipoArquivo;
 import br.com.embraer.shipdocs.repository.ArquivoRepository;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.io.IOException;
 import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping(value = "/arquivo", produces = "application/json;charset=UTF-8")
 public class ArquivoController {
 

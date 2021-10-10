@@ -1,6 +1,6 @@
 package br.com.embraer.shipdocs.controller;
 
-import br.com.embraer.shipdocs.model.Administrador;
+import br.com.embraer.shipdocs.model.usuario.Administrador;
 import br.com.embraer.shipdocs.repository.AdministradorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -10,7 +10,6 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
-@Controller
 @RequestMapping(value = "/administrador")
 @RestController
 public class AdministradorController {

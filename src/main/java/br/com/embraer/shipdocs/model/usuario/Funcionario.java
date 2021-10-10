@@ -1,14 +1,13 @@
-package br.com.embraer.shipdocs.model;
+package br.com.embraer.shipdocs.model.usuario;
 
 import javax.persistence.Entity;
-import javax.persistence.Table;
 
 @Entity(name = "funcionario")
-public class Funcionario extends Usuario{
+public class Funcionario extends Usuario {
 
-    /*
-    *   Construtor padrão
-    */
+    /**
+     *  Construtor padrão
+     */
     public Funcionario() {}
 
     public Funcionario(String nome, String email, String senha) {

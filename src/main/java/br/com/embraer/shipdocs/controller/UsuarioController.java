@@ -1,6 +1,6 @@
 package br.com.embraer.shipdocs.controller;
 
-import br.com.embraer.shipdocs.model.Usuario;
+import br.com.embraer.shipdocs.model.usuario.Usuario;
 import br.com.embraer.shipdocs.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -10,7 +10,6 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
-@Controller
 @RequestMapping("/usuario")
 @RestController
 public class UsuarioController {

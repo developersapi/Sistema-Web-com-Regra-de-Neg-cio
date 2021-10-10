@@ -1,15 +1,12 @@
-package br.com.embraer.shipdocs.model;
+package br.com.embraer.shipdocs.model.usuario;
+
+import br.com.embraer.shipdocs.model.EntidadeBase;
 
 import javax.persistence.*;
 
 @Inheritance(strategy = InheritanceType.JOINED)
 @MappedSuperclass
-public class Usuario {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private Long id;
+public class Usuario extends EntidadeBase {
 
     @Column(nullable = false)
     private String nome;
@@ -27,14 +24,6 @@ public class Usuario {
     }
 
     public Usuario() {
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getNome() {

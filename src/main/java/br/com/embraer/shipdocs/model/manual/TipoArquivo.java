@@ -1,4 +1,6 @@
-package br.com.embraer.shipdocs.model;
+package br.com.embraer.shipdocs.model.manual;
+
+import org.springframework.util.StringUtils;
 
 import java.util.Locale;
 

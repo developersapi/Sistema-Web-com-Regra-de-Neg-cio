@@ -1,10 +1,9 @@
-package br.com.embraer.shipdocs.model;
+package br.com.embraer.shipdocs.model.usuario;
 
 import javax.persistence.Entity;
-import javax.persistence.Table;
 
 @Entity(name = "administrador")
-public class Administrador extends Usuario{
+public class Administrador extends Usuario {
 
     /*
     *   Construtor padrão

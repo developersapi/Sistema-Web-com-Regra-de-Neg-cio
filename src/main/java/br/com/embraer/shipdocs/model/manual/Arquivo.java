@@ -1,16 +1,12 @@
-package br.com.embraer.shipdocs.model;
+package br.com.embraer.shipdocs.model.manual;
 
-import org.springframework.web.multipart.MultipartFile;
+import br.com.embraer.shipdocs.model.EntidadeBase;
 
 import javax.persistence.*;
 
 @Entity(name = "arquivo")
-public class Arquivo {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(nullable = false)
-    private Long id;
+@Table(name = "arquivo")
+public class Arquivo extends EntidadeBase {
 
     @Column(nullable = false)
     private String nome;
@@ -30,14 +26,6 @@ public class Arquivo {
         this.nome = nome;
         this.conteudo = conteudo;
         this.tipoArquivo = tipoArquivo;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getNome() {
