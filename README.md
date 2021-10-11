@@ -1,3 +1,4 @@
+
 <p><img src="https://img.shields.io/badge/Menu%20Principal-Projeto%20Em%20Construção-yellow?style=for-the-badge&logo=appveyor"></p>
 <p>
 <img src="https://img.shields.io/badge/Tecnologias-JAVA-blueviolet">
@@ -66,9 +67,9 @@ Relatório Estatístico.</p>
                      </tr>
                      <tr>
                             <td>Segunda Entrega</td>
-                            <td>  </td>
+                            <td> Implementação de Codlist, Tela de Cadastro, Melhorias de Interface, Mnipulação de Documentos. </td>
                             <td>20/09 à 10/10</td>
-                            <td><a href="">Sprint 2</td>
+                            <td><a href="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/tree/sprint02">Sprint 2</td>
                      </tr>
                      <tr>
                             <td>Terceira Entrega</td>
@@ -98,6 +99,18 @@ O mesmo já possuí o banco de dados, o que permite que possamos incluir e/ou ex
 
 ## <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/main/sprintcard1.png) </h1> 
 
+
+## <h2 align="center"> ![](https://github.com/developersapi/LMSApp/blob/sprint2/sprint%20card%202.png) </h2> 
+
+
+ <h4>Segunda Entrega entrega :clock8:</h4>
+       <p>Implementação de Codlist, Tela de Cadastro, Melhorias de Interface, Mnipulação de Documentos.
+       Realizamos melhorias na aplicação a fim de chegar no objetivo final ao qual com o que concordamos com a empresa parceira a quem o projeto ficará entregue.
+       O mesmo, encontra ainda algumas arestas a serem ajustadas, mas, está sendo formado a fim de quem as  </p>
+       
+       
+## <h3 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/sprintcard-2.png) </h3>  
+
 -------------------------------------------------------------------------------------------------------------------- 
 
 ## :bookmark: **_Backlog total_**
@@ -109,6 +122,15 @@ O mesmo já possuí o banco de dados, o que permite que possamos incluir e/ou ex
 <img src ="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1.PNG">
 <img src = "https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.PNG">
 
+<h1><i>Backlog</i> das <i>sprints</i> (entregas) do sistema</h1>
+
+
+<h4>Segunda entrega 📇</h4>
+<img src ="hhttps://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/backlog%20total%20EMBRAER.2.PNG">
+<img src = "https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/backlog%20total%20EMBRAER.2.1.PNG">
+
+
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## :bookmark: **_BURNDOWN_**
@@ -116,6 +138,12 @@ O mesmo já possuí o banco de dados, o que permite que possamos incluir e/ou ex
 <p align="justify">
                      📈 Para ver o BURNDOWN da Sprint 1 , clique <a href="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Gr%C3%A1fico%20Burdwon.png">aqui</a>.
               </p>
+
+<p align="justify">
+                     📈 Para ver o BURNDOWN da Sprint 2, clique <a href="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/main/Burdown_Sprint_2.PNG">aqui</a>.
+              </p>
+
+
 
 --------------------------------------------------------------------------------------------------------------------
 
