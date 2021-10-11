@@ -1,4 +1,4 @@
-<p><img src="https://img.shields.io/badge/Menu%20Principal-Projeto%20Em%20Construção-yellow?style=for-the-badge&logo=appveyor"></p>
+<p><img src="https://img.shields.io/badge/Menu%20Principal-Projeto%20Em%20Construção-green?style=for-the-badge&logo=appveyor"></p>
 <p>
 <img src="https://img.shields.io/badge/Tecnologias-JAVA-blueviolet">
 <img src="https://img.shields.io/badge/Tecnologia-Linguagem Javascript, NodeJS-blueviolet">
@@ -11,7 +11,7 @@
  --------------------------------------------------------------------------------------------------------------------
 
 <p><h1>ShipsDocument 📖🖥️ :</h1></p>
-<h1 align="center">Seja bem-vindo a Sprint 1 </p> </h1> 
+<h1 align="center">Seja bem-vindo a Sprint 2 </p> </h1> 
 
 --------------------------------------------------------------------------------------------------------------------
 ## :microscope: O PROJETO: 
@@ -22,16 +22,17 @@ Relatório Estatístico.</p>
 
 --------------------------------------------------------------------------------------------------------------------
 ## O que entregamos ✅
-<p align="justify"> Primeira entrega, incluí os Wireframes do produto, página inicial do site, login de cadastro e início da criação com planejamento de documentações que devem ser inclusas na plataforma ShipsDocument.</p>
+<p align="justify"> Implementação de Codlist, Tela de Cadastro, Melhorias de Interface, Mnipulação de Documentos.
+       Realizamos melhorias na aplicação a fim de chegar no objetivo final ao qual com o que concordamos com a empresa parceira a quem o projeto ficará entregue.</p>
 
 ## Por que fizemos essa escolha? ❔
-<p align="justify">De maneira geral, preferimos entregar algo visual, onde o cliente pudesse verificar o andamento do trabalho.</p>
+<p align="justify">De maneira geral, organizando os documentos a fim de que os mesmos sejam organizados de forma de os cocumentos sejam organizados da forma ao qual forma solicitados.</p>
 
 ## Quais são as partes mais trabalhosas? 
 <p align="justify">A parte mais trabalhosa e que precisaram de mais tempo são as telas de cadastrar e alterar dados de usuários, pois, como já estarão integradas ao back-end precisarão de todos os campos necessários e de várias validações para enviar dados persistentes ao banco de dados. 
 A criação de Wireframes, para que o cliente se interesse pelo produto criado, é um desafio que exige muita criatividade e cuidado com as escolhas.</p>
 
-## <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/main/sprintcard1.png) </h1> 
+## <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/sprintcard-2.png) </h1> 
 --------------------------------------------------------------------------------------------------------------------
 
 
@@ -43,16 +44,35 @@ A criação de Wireframes, para que o cliente se interesse pelo produto criado, 
 
 --------------------------------------------------------------------------------------------------------------------
 
-## :bookmark: **_Backlog_**
 
+## :bookmark: **_Backlog total_**
+
+<h1><i>Backlog</i> das <i>sprints</i> (entregas) do sistema</h1>
+
+
+<h4>Primeira entrega 📇</h4>
 <img src ="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1.PNG">
-<img src = "https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.PNG">
- 
+<img src = https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.PNG">
+
+<h1><i>Backlog</i> das <i>sprints</i> (entregas) do sistema</h1>
+
+
+<h4>Segunda entrega 📇</h4>
+<img src ="hhttps://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/backlog%20total%20EMBRAER.2.PNG">
+<img src ="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/backlog%20total%20EMBRAER.2.1.PNG">
+
 --------------------------------------------------------------------------------------------------------------------
 ## :bookmark: **_BURNDOWN_**
 
+<p align="justify">
+                     📈 Para ver o BURNDOWN da Sprint 1 , clique <a href="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Gr%C3%A1fico%20Burdwon.png">aqui</a>.
+              </p>
 
-## <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Gr%C3%A1fico%20Burdwon.png) </h1>
+<p align="justify">
+                     📈 Para ver o BURNDOWN da Sprint 2, clique <a href="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/main/Burdown_Sprint_2.PNG">aqui</a>.
+              </p>
+
+
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -80,7 +100,6 @@ A criação de Wireframes, para que o cliente se interesse pelo produto criado, 
 
 
 ## :gear: Programa funcionando:
-### <h1 align="center"> Página Inicial </h1> 
-### <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/main/landingpagelogin.gif) </h1> 
-### <h1 align="center"> Nosso trabalho</h1> 
-### <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/main/rodando-projeto.gif) </h1> 
+### <h1 align="center"> Nosso Trabalho </h1> 
+### <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/shipsdocument.gif) </h1> 
+
