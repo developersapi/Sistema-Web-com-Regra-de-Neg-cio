@@ -100,9 +100,6 @@ O mesmo já possuí o banco de dados, o que permite que possamos incluir e/ou ex
 ## <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/main/sprintcard1.png) </h1> 
 
 
-## <h2 align="center"> ![](https://github.com/developersapi/LMSApp/blob/sprint2/sprint%20card%202.png) </h2> 
-
-
  <h4>Segunda Entrega entrega :clock8:</h4>
        <p>Implementação de Codlist, Tela de Cadastro, Melhorias de Interface, Mnipulação de Documentos.
        Realizamos melhorias na aplicação a fim de chegar no objetivo final ao qual com o que concordamos com a empresa parceira a quem o projeto ficará entregue.
@@ -120,14 +117,14 @@ O mesmo já possuí o banco de dados, o que permite que possamos incluir e/ou ex
 
 <h4>Primeira entrega 📇</h4>
 <img src ="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1.PNG">
-<img src = "https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.PNG">
+<img src = https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.PNG">
 
 <h1><i>Backlog</i> das <i>sprints</i> (entregas) do sistema</h1>
 
 
 <h4>Segunda entrega 📇</h4>
 <img src ="hhttps://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/backlog%20total%20EMBRAER.2.PNG">
-<img src = "https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/backlog%20total%20EMBRAER.2.1.PNG">
+<img src ="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/backlog%20total%20EMBRAER.2.1.PNG">
 
 
 
