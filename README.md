@@ -47,14 +47,6 @@ A criação de Wireframes, para que o cliente se interesse pelo produto criado, 
 
 ## :bookmark: **_Backlog total_**
 
-<h1><i>Backlog</i> das <i>sprints</i> (entregas) do sistema</h1>
-
-
-<h4>Primeira entrega 📇</h4>
-<img src ="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1.PNG">
-<img src = https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.PNG">
-
-<h1><i>Backlog</i> das <i>sprints</i> (entregas) do sistema</h1>
 
 
 <h4>Segunda entrega 📇</h4>
@@ -102,4 +94,5 @@ A criação de Wireframes, para que o cliente se interesse pelo produto criado, 
 ## :gear: Programa funcionando:
 ### <h1 align="center"> Nosso Trabalho </h1> 
 ### <h1 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/shipsdocument.gif) </h1> 
+
 
