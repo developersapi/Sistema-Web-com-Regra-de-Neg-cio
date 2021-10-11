@@ -1,4 +1,4 @@
-<p><img src="https://img.shields.io/badge/Menu%20Principal-Projeto%20Em%20Construção-yellow?style=for-the-badge&logo=appveyor"></p>
+<p><img src="https://img.shields.io/badge/Menu%20Principal-Projeto%20Concluído-green?style=for-the-badge&logo=appveyor"></p>
 <p>
 <img src="https://img.shields.io/badge/Tecnologias-JAVA-blueviolet">
 <img src="https://img.shields.io/badge/Tecnologia-Linguagem Javascript, NodeJS-blueviolet">
@@ -22,7 +22,7 @@ Relatório Estatístico.</p>
 
 --------------------------------------------------------------------------------------------------------------------
 ## O que entregamos ✅
-<p align="justify"> Primeira entrega, incluí os Wireframes do produto, página inicial do site, login de cadastro e início da criação com planejamento de documentações que devem ser inclusas na plataforma ShipsDocument.</p>
+<p align="justify"> Primeira entrega, incluí os Wireframes do produto, página inicial do site, login de cadastro e incio da criação com planejamento de documentações que devem ser inclusas na plataforma ShipsDocument.</p>
 
 ## Por que fizemos essa escolha? ❔
 <p align="justify">De maneira geral, preferimos entregar algo visual, onde o cliente pudesse verificar o andamento do trabalho.</p>
@@ -47,7 +47,6 @@ A criação de Wireframes, para que o cliente se interesse pelo produto criado, 
 
 <img src ="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1.PNG">
 <img src = "https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint01/Backlog-Sprint1_2.PNG">
- 
 --------------------------------------------------------------------------------------------------------------------
 ## :bookmark: **_BURNDOWN_**
 
