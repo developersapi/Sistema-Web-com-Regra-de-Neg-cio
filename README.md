@@ -102,8 +102,7 @@ O mesmo já possuí o banco de dados, o que permite que possamos incluir e/ou ex
 
  <h4>Segunda Entrega entrega :clock8:</h4>
        <p>Implementação de Codlist, Tela de Cadastro, Melhorias de Interface, Mnipulação de Documentos.
-       Realizamos melhorias na aplicação a fim de chegar no objetivo final ao qual com o que concordamos com a empresa parceira a quem o projeto ficará entregue.
-       O mesmo, encontra ainda algumas arestas a serem ajustadas, mas, está sendo formado a fim de quem as  </p>
+       Realizamos melhorias na aplicação a fim de chegar no objetivo final ao qual com o que concordamos com a empresa parceira a quem o projeto ficará entregue. </p>
        
        
 ## <h3 align="center"> ![](https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/sprint02/sprintcard-2.png) </h3>  
