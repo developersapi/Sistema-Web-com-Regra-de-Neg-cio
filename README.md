@@ -55,33 +55,38 @@ Relatório Estatístico.</p>
               <thead>
                      <th width=100px>Entregas</th>
                      <th>Descrições</th>
-                     <th width=215px>Datas</th>
-                     <th>Links</th>
+                     <th width=150px>Datas</th>
+                     <th width=100px>Links</th>
+                     <th width=150px>Apresentações</th>
               </thead>
               <tbody>
                      <tr>
-                            <td>Primeira Entrega</td>
-                            <td>Prototipação das telas, Área de Login e Cadastro e Tela Inicial do usuário.</td>
-                            <td>30/08 à 19/09</td>
-                            <td><a href="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/tree/sprint01">Sprint 1</td>
+                            <td align="center" valign="center">Primeira Entrega</td>
+                            <td align="center" valign="center">Prototipação das telas, Área de Login e Cadastro e Tela Inicial do usuário.</td>
+                            <td align="center" valign="center">30/08 à 19/09</td>
+                            <td align="center" valign="center"><a href="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/tree/sprint01">Sprint 1</a></td>
+                             <td align="center" valign="center"><a href="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/main/apresentacoes/Apresenta%C3%A7%C3%A3o%20Sprint%201.pdf">Sprint 1</a></td>
                      </tr>
                      <tr>
-                            <td>Segunda Entrega</td>
-                            <td> Implementação de Codlist, Tela de Cadastro, Melhorias de Interface, Mnipulação de Documentos. </td>
-                            <td>20/09 à 10/10</td>
-                            <td><a href="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/tree/sprint02">Sprint 2</td>
+                            <td align="center" valign="center">Segunda Entrega</td>
+                            <td align="center" valign="center"> Implementação de Codlist, Tela de Cadastro, Melhorias de Interface, Mnipulação de Documentos. </td>
+                            <td align="center" valign="center">20/09 à 10/10</td>
+                            <td align="center" valign="center"><a href="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/tree/sprint02">Sprint 2</a></td>
+                            <td align="center" valign="center"><a href="https://github.com/developersapi/Sistema-Web-com-Regra-de-Negocio/blob/main/apresentacoes/Apresenta%C3%A7%C3%A3o%20Sprint%202.pdf">Sprint 2</a></td>
                      </tr>
                      <tr>
-                            <td>Terceira Entrega</td>
-                            <td></td>
-                            <td>18/09 à 07/11</td>
-                            <td><a href="">Sprint 3</a></td>
+                            <td align="center" valign="center">Terceira Entrega</td>
+                            <td align="center" valign="center"></td>
+                            <td align="center" valign="center">18/09 à 07/11</td>
+                            <td align="center" valign="center"><a href="">Sprint 3</a></td>
+                            <td align="center" valign="center"><a href="">Sprint 3</a></td>
                      </tr>
                       <tr>
-                            <td>Quarta Entrega</td>
-                            <td></td>
-                            <td>08/11 à 28/11</td>
-                            <td><a href="">Sprint 4</a></td>
+                            <td align="center" valign="center">Quarta Entrega</td>
+                            <td align="center" valign="center"></td>
+                            <td align="center" valign="center">08/11 à 28/11</td>
+                            <<td align="center" valign="center"><a href="">Sprint 4</a></td>
+                            <td align="center" valign="center"><a href="">Sprint 4</a></td>
                      </tr>
               </tbody>
         </table>
