@@ -4,6 +4,7 @@ import br.com.embraer.shipdocs.model.manual.Arquivo;
 import br.com.embraer.shipdocs.model.manual.Manual;
 import br.com.embraer.shipdocs.model.manual.TipoArquivo;
 import br.com.embraer.shipdocs.repository.ManualRepository;
+import br.com.embraer.shipdocs.service.ManualService;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -20,6 +21,9 @@ public class ManualController {
 
     @Autowired
     ManualRepository manualRepository;
+
+    @Autowired
+    ManualService manualService;
 
     @PostMapping(value = "/upload")
     public Manual upload(@RequestBody Manual manual, MultipartFile arquivo) throws IOException {
@@ -41,5 +45,10 @@ public class ManualController {
     @GetMapping(value = "/buscarTodos")
     public List<Manual> buscarTodos(){
         return manualRepository.findAll();
+    }
+
+    @GetMapping(value = "/importarLocal")
+    public List<Manual> importarLocal() throws IOException {
+        return manualRepository.saveAllAndFlush(manualService.importarLocal());
     }
 }

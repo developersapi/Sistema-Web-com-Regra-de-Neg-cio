@@ -15,6 +15,10 @@ public class SubSecao extends EntidadeBase {
         return codigoSubSecao;
     }
 
+    public SubSecao(String codigoSubSecao) {
+        this.codigoSubSecao = codigoSubSecao;
+    }
+
     public void setCodigoSubSecao(String codigoSubSecao) {
         this.codigoSubSecao = codigoSubSecao;
     }
