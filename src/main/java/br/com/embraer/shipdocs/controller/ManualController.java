@@ -48,7 +48,11 @@ public class ManualController {
     }
 
     @GetMapping(value = "/importarLocal")
-    public List<Manual> importarLocal() throws IOException {
-        return manualRepository.saveAllAndFlush(manualService.importarLocal());
+    public List<Manual> importarLocal(@RequestBody String opcao) throws IOException {
+        if (opcao != null) {
+            opcao = (opcao.equals("master") ? "/Master" : "/Rev");
+        }
+
+        return manualRepository.saveAllAndFlush(manualService.importarLocal(opcao));
     }
 }

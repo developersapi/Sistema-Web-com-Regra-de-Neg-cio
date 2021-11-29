@@ -8,11 +8,11 @@ import javax.persistence.*;
 @Table(name = "manual")
 public class Manual extends EntidadeBase {
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.PERSIST)
     @JoinColumn(name = "identificacao")
     private Identificacao identificacao;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.PERSIST)
     @JoinColumn(name = "arquivo")
     private Arquivo arquivo;
 

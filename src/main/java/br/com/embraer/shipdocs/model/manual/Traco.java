@@ -13,7 +13,7 @@ public class Traco extends EntidadeBase {
     @Column(nullable = false)
     private String codigoTraco;
 
-    @Column(nullable = false)
+    @Column()
     private String codigoPN;
 
     public Traco(String codigoTraco, String codigoPN) {

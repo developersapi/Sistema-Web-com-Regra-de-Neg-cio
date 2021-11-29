@@ -12,7 +12,7 @@ public class Secao extends EntidadeBase {
     @Column(nullable = false)
     private String codigoSecao;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.PERSIST)
     @JoinColumn(nullable = true)
     private SubSecao subSecao;
 

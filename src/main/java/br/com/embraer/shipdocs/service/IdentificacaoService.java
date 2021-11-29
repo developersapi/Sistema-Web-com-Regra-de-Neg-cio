@@ -1,11 +1,18 @@
 package br.com.embraer.shipdocs.service;
 
 import br.com.embraer.shipdocs.model.manual.*;
+import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.pdfbox.Loader;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.io.File;
+import java.io.IOException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Service
 @Transactional()
@@ -17,7 +24,11 @@ public class IdentificacaoService {
         identificacao.setNome(identificarNome(manual));
         identificacao.setTraco(identificarTraco(manual));
         identificacao.setBloco(identificarBloco(manual));
-        identificacao.setSecao(identificarSecao(manual));
+        try {
+            identificacao.setSecao(identificarSecao(manual));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         return identificacao;
     }
@@ -29,23 +40,39 @@ public class IdentificacaoService {
     }
 
     private Traco identificarTraco(File manual){
-        String nomeArquivo = manual.getName();
+        String nomeArquivo = FilenameUtils.removeExtension(manual.getName());
+
+        String codTraco = "50";
 
         String codPN = StringUtils.substringBetween(nomeArquivo, "-", "-");
-        String codTraco = StringUtils.substringAfterLast(nomeArquivo, "-");
+
+        Pattern regexTraco = Pattern.compile("-(50|55|60)");
+        Matcher matcher = regexTraco.matcher(nomeArquivo);
+        if(matcher.find()) {
+            codTraco = StringUtils.substringAfter(matcher.group(), "-");
+        }
 
         return new Traco(codTraco, codPN);
     }
 
-    // Provisório
-    @Deprecated
-    private Bloco identificarBloco(File manual){
-        return new Bloco("03");
+    private Bloco identificarBloco(File manual) {
+        String nomeArquivo = FilenameUtils.removeExtension(manual.getName());
+
+        String numeroBloco = StringUtils.substringAfterLast(nomeArquivo, "-");
+        numeroBloco = StringUtils.substringBefore(numeroBloco, "c");
+
+        String codigoBloco = StringUtils.substringAfter(nomeArquivo, "c");
+
+        return new Bloco(numeroBloco, codigoBloco);
     }
 
-    // Provisório
-    @Deprecated
-    private Secao identificarSecao(File manual){
-        return new Secao("05", new SubSecao("06"));
+    private Secao identificarSecao(File manual) throws IOException{
+        PDDocument documento = Loader.loadPDF(manual);
+        String texto = new PDFTextStripper().getText(documento);
+
+        String secao = StringUtils.substringBetween(texto, "-", "-");
+        String subsecao = StringUtils.substringBetween(texto, "0", "-");
+
+        return new Secao(secao, new SubSecao(subsecao));
     }
 }
